@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+    >
+
+    <ImageView
+        android:id="@+id/btn_chat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:onClick="liveClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_chat"
+        />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:adjustViewBounds="true"
+        android:onClick="liveAudienceClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_close"
+        />
+
+    <ImageView
+        android:id="@+id/btn_gift"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_close"
+        android:adjustViewBounds="true"
+        android:onClick="liveAudienceClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_gift"
+        />
+
+
+    <ImageView
+        android:id="@+id/btn_share"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_gift"
+        android:adjustViewBounds="true"
+        android:onClick="liveAudienceClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_share"
+        />
+
+    <ImageView
+        android:id="@+id/btn_msg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_share"
+        android:adjustViewBounds="true"
+        android:onClick="liveClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_msg"
+        />
+
+    <ImageView
+        android:id="@+id/btn_lianmai"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_msg"
+        android:adjustViewBounds="true"
+        android:onClick="liveAudienceClick"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_live_lianmai"
+        />
+
+    <TextView
+        android:id="@+id/red_point"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignRight="@id/btn_msg"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_chat_red_point"
+        android:gravity="center"
+        android:minWidth="14dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:textColor="#fff"
+        android:textSize="10sp"
+        android:visibility="gone"
+        />
+</RelativeLayout>

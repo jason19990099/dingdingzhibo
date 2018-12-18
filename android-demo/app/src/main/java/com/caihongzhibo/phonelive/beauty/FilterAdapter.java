@@ -1,0 +1,119 @@
+package com.caihongzhibo.phonelive.beauty;
+
+import android.content.Context;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
+import com.yunbao.beauty.bean.FilterBean;
+import com.caihongzhibo.phonelive.R;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import cn.tillusory.sdk.bean.TiFilterEnum;
+
+/**
+ * Created by cxf on 2018/8/3.
+ */
+
+public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.Vh> {
+
+    private Context mContext;
+    private List<FilterBean> mList;
+    private LayoutInflater mInflater;
+    private ActionListener mActionListener;
+    private int mCheckedPosition;
+    private int mCheckedColor;
+    private int mUnCheckedColor;
+    private View.OnClickListener mOnClickListener;
+
+    public FilterAdapter(Context context) {
+        mContext = context;
+        mInflater = LayoutInflater.from(context);
+        mList = new ArrayList<>();
+        TiFilterEnum[] values = TiFilterEnum.values();
+        for (int i = 0, size = values.length; i < size; i++) {
+            FilterBean bean = new FilterBean(values[i]);
+            if (i == 0) {
+                bean.setChecked(true);
+            }
+            mList.add(bean);
+        }
+        mCheckedColor = ContextCompat.getColor(context, R.color.global);
+        mUnCheckedColor = 0xffffffff;
+        mOnClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Object tag = v.getTag();
+                if (tag != null) {
+                    int position = (int) tag;
+                    if (mCheckedPosition != position) {
+                        mList.get(mCheckedPosition).setChecked(false);
+                        mList.get(position).setChecked(true);
+                        notifyItemChanged(mCheckedPosition, "payload");
+                        notifyItemChanged(position, "payload");
+                        mCheckedPosition = position;
+                        if (mActionListener != null) {
+                            mActionListener.onItemClick(mList.get(position).getTiFilterEnum());
+                        }
+                    }
+                }
+            }
+        };
+    }
+
+    public void setActionListener(ActionListener listener) {
+        mActionListener = listener;
+    }
+
+    @Override
+    public Vh onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new Vh(mInflater.inflate(R.layout.view_item_list_beauty_filter, parent, false));
+    }
+
+    @Override
+    public void onBindViewHolder(Vh vh, int position) {
+
+    }
+
+    @Override
+    public void onBindViewHolder(Vh vh, int position, List<Object> payloads) {
+        Object payload = payloads.size() > 0 ? payloads.get(0) : null;
+        vh.setData(mList.get(position), position, payload);
+    }
+
+    @Override
+    public int getItemCount() {
+        return mList.size();
+    }
+
+    class Vh extends RecyclerView.ViewHolder {
+        TextView mTextView;
+
+        public Vh(View itemView) {
+            super(itemView);
+            mTextView = (TextView) itemView;
+            itemView.setOnClickListener(mOnClickListener);
+        }
+
+        void setData(FilterBean bean, int position, Object payload) {
+            itemView.setTag(position);
+            if (payload == null) {
+                mTextView.setText(bean.getTiFilterEnum().getString(mContext));
+            }
+            if (mCheckedPosition == position) {
+                mTextView.setTextColor(mCheckedColor);
+            } else {
+                mTextView.setTextColor(mUnCheckedColor);
+            }
+        }
+    }
+
+    public interface ActionListener {
+        void onItemClick(TiFilterEnum tiFilterEnum);
+    }
+}

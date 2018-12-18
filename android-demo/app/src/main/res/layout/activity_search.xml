@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titleBackground"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search_input"
+            >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:src="@mipmap/icon_search2"
+                />
+
+            <EditText
+                android:id="@+id/search_input"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/search_input"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/textColor"
+                android:textColorHint="#737373"
+                android:textSize="16sp"
+                android:imeOptions="actionSearch"
+                android:imeActionLabel="@string/search"
+                android:singleLine="true"
+                />
+
+            <ImageView
+                android:id="@+id/btn_clear"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:src="@mipmap/icon_search_clear"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="back"
+            android:text="@string/cancel"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/no_result"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bg_search_empty"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        />
+</RelativeLayout>

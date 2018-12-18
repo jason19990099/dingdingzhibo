@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+
+        <ImageView
+            android:id="@+id/headImg"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/headImg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/headImg"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            />
+
+        <ImageView
+            android:id="@+id/sex"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignTop="@id/name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toRightOf="@id/name"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/anchor_level"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignTop="@id/sex"
+            android:layout_toRightOf="@id/sex"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/user_level"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignTop="@id/sex"
+            android:layout_toRightOf="@id/anchor_level"
+            android:layout_marginLeft="5dp"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/id_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/headImg"
+            android:textColor="#ccc"
+            />
+
+
+        <com.caihongzhibo.phonelive.custom.DrawableTextView
+            android:id="@+id/btn_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/name"
+            android:layout_marginRight="20dp"
+            android:text="@string/edit_profile"
+            android:textColor="#737373"
+            android:textSize="12sp"
+            app:right_drawable="@mipmap/icon_arrow_right"
+            app:right_drawableSize="14dp"
+            android:clickable="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:background="#fff"
+        >
+
+        <TextView
+            android:id="@+id/btn_live"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"
+            />
+
+        <TextView
+            android:id="@+id/btn_attention"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/lineColor"
+            />
+
+        <TextView
+            android:id="@+id/btn_fans"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/textColor"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

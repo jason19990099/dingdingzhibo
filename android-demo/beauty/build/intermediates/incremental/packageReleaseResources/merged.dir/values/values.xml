@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="global1">#ffd350</color>
+    <declare-styleable name="MyRadioButton"><attr format="dimension" name="drawableSize1"/><attr format="dimension" name="top_drawableSize1"/><attr format="dimension" name="left_drawableSize1"/><attr format="dimension" name="right_drawableSize1"/><attr format="dimension" name="bottom_drawableSize1"/><attr format="reference" name="top_drawable1"/><attr format="reference" name="left_drawable1"/><attr format="reference" name="right_drawable1"/><attr format="reference" name="bottom_drawable1"/></declare-styleable>
+    <declare-styleable name="TextSeekBar"><attr format="string" name="text2"/><attr format="integer" name="progressVal"/></declare-styleable>
+    <string name="beauty">美颜</string>
+    <string name="beauty_baohe">饱和</string>
+    <string name="beauty_big_eye">大眼</string>
+    <string name="beauty_face">瘦脸</string>
+    <string name="beauty_fengnen">粉嫩</string>
+    <string name="beauty_meibai">美白</string>
+    <string name="beauty_mopi">磨皮</string>
+    <string name="beauty_shape">美型</string>
+    <string name="filter">滤镜</string>
+    <string name="haha">哈哈镜</string>
+    <string name="haha_1">外星人</string>
+    <string name="haha_2">梨梨脸</string>
+    <string name="haha_3">瘦瘦脸</string>
+    <string name="haha_4">方方脸</string>
+    <string name="meng">萌颜</string>
+    <string name="rock">抖音</string>
+    <string name="tiezhi_download_failed">贴纸下载失败</string>
+</resources>

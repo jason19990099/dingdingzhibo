@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.caihongzhibo.phonelive.custom.DragLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    >
+
+    <FrameLayout
+        android:id="@+id/video_place"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/link_mic_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        />
+
+    <RelativeLayout
+        android:id="@+id/wrap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <FrameLayout
+                android:id="@+id/repalced_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                />
+
+            <RelativeLayout
+                android:id="@+id/inner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/repalced_game"
+                >
+
+                <LinearLayout
+                    android:id="@+id/zhubo_wrap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_live_zhubo"
+                    android:orientation="horizontal"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/anchor_avatar_group"
+                        android:layout_width="36dp"
+                        android:layout_height="match_parent"
+                        android:onClick="liveClick"
+                        >
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/anchor_avatar"
+                            android:layout_width="36dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            app:riv_border_color="@color/global"
+                            app:riv_border_width="1dp"
+                            app:riv_oval="true"
+                            />
+
+                        <ImageView
+                            android:id="@+id/anchor_level"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/live2"
+                            android:textColor="#fff"
+                            android:textSize="12sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/nums"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textSize="12sp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/btn_attention"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="-5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/bg_live_attention"
+                        android:gravity="center"
+                        android:onClick="liveAudienceClick"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="@string/attention2"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/user_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_alignTop="@id/zhubo_wrap"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@id/zhubo_wrap"
+                    android:overScrollMode="never"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/votes_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_below="@id/zhubo_wrap"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_live_votes"
+                    android:gravity="center_vertical"
+                    android:onClick="liveClick"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    >
+
+                    <com.caihongzhibo.phonelive.custom.DrawableTextView
+                        android:id="@+id/coin_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:textColor="#fff"
+                        android:textSize="13sp"
+                        app:drawableSize="14dp"
+                        app:left_drawable="@mipmap/icon_gift_diamond"
+                        />
+
+                    <TextView
+                        android:id="@+id/votes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="3dp"
+                        android:gravity="center_vertical"
+                        android:textColor="#fff"
+                        android:textSize="13sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/room_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#fff"
+                        android:textSize="13sp"
+                        />
+
+                    <com.caihongzhibo.phonelive.custom.DrawableTextView
+                        android:id="@+id/room_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="5dp"
+                        android:textColor="#fff"
+                        android:textSize="13sp"
+                        app:drawableSize="14dp"
+                        app:right_drawable="@mipmap/icon_live_right_arrow"
+                        />
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:id="@+id/repalced_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    />
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/chat_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_above="@id/repalced_bottom"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="100dp"
+                    android:overScrollMode="never"
+                    />
+
+                <TextView
+                    android:id="@+id/enter_room_anim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/chat_list"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:translationX="500dp"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.caihongzhibo.phonelive.custom.FrameAnimImageView
+            android:id="@+id/gift_frame_anim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            />
+
+        <com.caihongzhibo.phonelive.custom.FrameAnimImageView
+            android:id="@+id/enter_room_frame_anim_1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="80dp"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/enter_room_frame_anim_2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignTop="@id/enter_room_frame_anim_1"
+            android:scaleType="centerCrop"
+            />
+
+
+        <TextView
+            android:id="@+id/enter_room_frame_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/enter_room_frame_anim_1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/global"
+            android:textSize="14sp"
+            />
+
+    </RelativeLayout>
+</com.caihongzhibo.phonelive.custom.DragLayout>
