@@ -93,7 +93,7 @@ public abstract class AbsActivity2 extends AppCompatActivity {
                 ToastUtil.show(getString(R.string.live_tips));
                 break;
             case ACTIVITYTYPE_AUDIENCE:
-
+            //
                 break;
 
         }
