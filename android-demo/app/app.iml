@@ -122,12 +122,15 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support:multidex-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:animated-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.youth.banner:banner-1.4.9" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.8.4@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-compat-25.3.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: jp.wasabeef:glide-transformations-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.squareup.retrofit2:converter-gson:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.ksyun.media:libksylive-armv7a-2.4.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.hyphenate:hyphenate-sdk-3.3.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\dingdingzhiibo\android-demo\app\libs\AMap_Location_V3.5.0_20170731.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-v4-25.3.1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.squareup.retrofit2:retrofit:2.3.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.alibaba:fastjson:1.1.70.android@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: __local_jars__:D.\dingdingzhiibo\android-demo\app\libs\commons-io-1.4.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-core-ui-25.3.1" level="project" />

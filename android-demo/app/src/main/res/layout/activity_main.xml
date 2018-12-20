@@ -91,6 +91,6 @@
         android:layout_marginBottom="5dp"
         android:adjustViewBounds="true"
         android:onClick="mainClick"
-        android:src="@mipmap/icon_start_live"
+        android:src="@mipmap/zhibo_logo"
         />
 </RelativeLayout>

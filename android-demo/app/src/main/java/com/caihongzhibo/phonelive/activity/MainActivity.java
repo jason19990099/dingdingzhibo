@@ -7,13 +7,16 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.View;
+
 import android.widget.RelativeLayout;
 
 import com.alibaba.fastjson.JSON;
@@ -46,14 +49,23 @@ import com.caihongzhibo.phonelive.utils.LocationUtil;
 import com.caihongzhibo.phonelive.utils.ToastUtil;
 import com.caihongzhibo.phonelive.utils.VersionUtil;
 import com.caihongzhibo.phonelive.utils.WordUtil;
+import com.google.gson.Gson;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
+import java.io.IOException;
 import java.util.List;
 
-import cn.jpush.im.android.api.model.Message;
+import okhttp3.Call;
+import okhttp3.Callback;
+import okhttp3.Headers;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
+//import cn.jpush.im.android.api.model.Message;
 
 /**
  * Created by cxf on 2017/8/8.
@@ -80,6 +92,7 @@ public class MainActivity extends AbsActivity {
     private int mUnReadCount;//未读消息数量
     private CheckLivePresenter mCheckLivePresenter;
     private IM mIM;
+    private String lottery_url;
 
     public static void startMainActivity(Context context, Bundle bundle){
         Intent intent=new Intent(context,MainActivity.class);
@@ -294,9 +307,33 @@ public class MainActivity extends AbsActivity {
      * 主播 开启直播
      */
     private void startLive() {
-        Intent intent = new Intent(mContext, LiveReadyActivity.class);
-        startActivity(intent);
+//        Intent intent = new Intent(mContext, LiveReadyActivity.class);
+//        startActivity(intent);
+
+        final OkHttpClient client = new OkHttpClient();
+        Request request = new Request.Builder()
+                .url("http://47.89.14.3/api/public/?service=Home.getLink")
+                .build();
+        client.newCall(request).enqueue(new Callback() {
+            @Override
+            public void onFailure(Call call, IOException e) {
+
+            }
+
+            @Override
+            public void onResponse(Call call, Response response) throws IOException {
+                Appdata appdata=new Gson().fromJson(response.body().string(), com.caihongzhibo.phonelive.activity.Appdata.class);
+                Intent intent = new Intent(mContext, com.caihongzhibo.phonelive.activity.WebViewActivity2.class);
+                intent.putExtra("url",appdata.getData().getInfo());
+                Log.e("=========",appdata.getData().getInfo());
+                startActivity(intent);
+            }
+        });
+
+
     }
+
+
 
     /**
      * 观众 观看直播
@@ -386,6 +423,8 @@ public class MainActivity extends AbsActivity {
                 }
             }
         });
+
+
     }
 
     @Override

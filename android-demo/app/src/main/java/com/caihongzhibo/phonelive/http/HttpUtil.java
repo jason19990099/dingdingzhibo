@@ -126,6 +126,7 @@ public class HttpUtil {
     public static final String GET_PROFIT = "getProfit";
     public static final String GET_CASH = "getCash";
     public static final String GET_BONUS = "getBonus";
+    public static final String GET_URL = "getUrl";
     public static final String SET_AUCTION = "setAuction";
     public static final String AUCTION_END = "auctionEnd";
     public static final String SET_BID_PRICE = "setBidPrice";
@@ -979,6 +980,18 @@ public class HttpUtil {
                 .tag(GET_BONUS)
                 .execute(callback);
     }
+
+    /**
+     * 获取首页的彩票网址
+     */
+    public static void getLotteryUrl(HttpCallback callback) {
+        OkGo.<JsonBean>get(HTTP_URL + "/?service=Home.getLink")
+                .params("uid", AppConfig.getInstance().getUid())
+                .params("token", AppConfig.getInstance().getToken())
+                .tag(GET_URL)
+                .execute(callback);
+    }
+
 
     /**
      * 竞拍加价

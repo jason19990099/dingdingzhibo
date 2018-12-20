@@ -14,7 +14,7 @@ import com.caihongzhibo.phonelive.utils.L;
 import com.caihongzhibo.phonelive.utils.LoginUtil;
 import com.caihongzhibo.phonelive.utils.SharedPreferencesUtil;
 
-import cn.sharesdk.framework.ShareSDK;
+//import cn.sharesdk.framework.ShareSDK;
 
 /**
  * 启动页面
@@ -35,7 +35,7 @@ public class LauncherActivity extends AbsActivity {
         //初始化极光推送
         JPushUtil.init();
         //初始化sharedSdk
-        ShareSDK.initSDK(AppContext.sInstance);
+//        ShareSDK.initSDK(AppContext.sInstance);
         //初始化IM
         IMUtil.getInstance().init(IMUtil.JIM);
         AppConfig.getInstance().setLaunched(true);

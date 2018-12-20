@@ -97,4 +97,6 @@ dependencies {
     compile project(':beauty')
     //gif动画库
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
+
+    compile 'com.squareup.retrofit2:converter-gson:2.3.0'
 }

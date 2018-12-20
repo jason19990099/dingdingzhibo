@@ -77,6 +77,10 @@
             android:name=".activity.WebFenXiaoActivity"
             android:screenOrientation="portrait"/>
         <activity
+            android:name=".activity.WebViewActivity2"
+            android:screenOrientation="portrait"/>
+
+        <activity
             android:name=".activity.EMChatActivity"
             android:screenOrientation="portrait"/>
         <activity
