@@ -502,6 +502,7 @@ public class HttpUtil {
         OkGo.<JsonBean>get(HTTP_URL + "/?service=User.getBaseInfo")
                 .params("uid", AppConfig.getInstance().getUid())
                 .params("token", AppConfig.getInstance().getToken())
+                .params("role","user")
                 .tag(GET_BASE_INFO)
                 .execute(callback);
     }

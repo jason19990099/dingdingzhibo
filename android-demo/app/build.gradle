@@ -32,18 +32,6 @@ android {
 
     }
 
-    android.applicationVariants.all { variant ->
-        variant.outputs.all {
-            outputFileName = "${variant.productFlavors[0].name}-${defaultConfig.versionName}-${defaultConfig.versionCode}" +
-                    "-${releaseTime()}-${variant.buildType.name}.apk"
-        }
-    }
-    // 打包的渠道
-    productFlavors {
-        dingding {}
-    }
-
-
 
     defaultConfig {
         ndk {
@@ -115,8 +103,3 @@ dependencies {
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
 }
 
-
-//获取当前打包的时间
-def static releaseTime() {
-    return new Date().format("yyyyMMdd-HHmmss")
-}
