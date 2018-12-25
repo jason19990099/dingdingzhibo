@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.caihongzhibo.phonelive">
+          package="com.caihongzhibo.phonelive2">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -28,14 +28,14 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAG"/>
     <application
-        android:name="AppContext"
+        android:name="com.caihongzhibo.phonelive2.AppContext"
         android:allowBackup="true"
         android:icon="@mipmap/ddlogo"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         >
         <activity
-            android:name=".activity.LauncherActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LauncherActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -43,130 +43,130 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.LoginActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LoginActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />
         <activity
-            android:name=".activity.LoginActivityEx"
+            android:name="com.caihongzhibo.phonelive2.activity.LoginActivityEx"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />
         <activity
-            android:name=".activity.RegisterActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.RegisterActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.FindPwdActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.FindPwdActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />
         <activity
-            android:name=".activity.WebActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.WebActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.WebBannerActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.WebBannerActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.WebAuthActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.WebAuthActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.WebFenXiaoActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.WebFenXiaoActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.WebViewActivity2"
+            android:name="com.caihongzhibo.phonelive2.activity.WebViewActivity2"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".activity.EMChatActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.EMChatActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.SearchActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.SearchActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />
         <activity
-            android:name=".activity.UserInfoActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.UserInfoActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.AttentionActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.AttentionActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.OrderActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.OrderActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.LiveRecordPlayActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LiveRecordPlayActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.EMChatRoomActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.EMChatRoomActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.LiveRecordListActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LiveRecordListActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.EditProfileActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.EditProfileActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.SetAvatarActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.SetAvatarActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.SetSexActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.SetSexActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.SetNickNameActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.SetNickNameActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             />
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.SettingActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.ResetPwdActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.ResetPwdActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.LiveAnchorActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LiveAnchorActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
             />
         <activity
-            android:name=".activity.LiveAudienceActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LiveAudienceActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
             />
         <activity
-            android:name=".activity.ShopActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.ShopActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.EquipActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.EquipActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.LiveReadyActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LiveReadyActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.ChargeActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.ChargeActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.HarvestActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.HarvestActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.LoginInvalidActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.LoginInvalidActivity"
             android:screenOrientation="portrait"
             android:theme="@style/dialog2"
             />
         <activity
-            android:name=".activity.RecommendActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.RecommendActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".activity.ErrorActivity"
+            android:name="com.caihongzhibo.phonelive2.activity.ErrorActivity"
             android:screenOrientation="portrait"/>
 
 
         <!--监听网络变化的广播-->
-        <receiver android:name=".receiver.ConnectivityReceiver">
+        <receiver android:name="com.caihongzhibo.phonelive2.receiver.ConnectivityReceiver">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
             </intent-filter>
@@ -201,7 +201,7 @@
 
         <!--微信登录回调页面-->
         <activity
-            android:name=".wxapi.WXEntryActivity"
+            android:name="com.caihongzhibo.phonelive2.wxapi.WXEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -211,7 +211,7 @@
 
         <!--微信支付回调页面-->
         <activity
-            android:name=".wxapi.WXPayEntryActivity"
+            android:name="com.caihongzhibo.phonelive2.wxapi.WXPayEntryActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -221,7 +221,7 @@
 
         <!--极光推送-->
         <receiver
-            android:name=".receiver.JPushReceiver"
+            android:name="com.caihongzhibo.phonelive2.receiver.JPushReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -282,7 +282,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.caihongzhibo.phonelive.fileprovider"
+            android:authorities="com.caihongzhibo.phonelive2.activity"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

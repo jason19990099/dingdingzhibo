@@ -36,7 +36,7 @@
                     android:src="@mipmap/icon_back2"
                     />
 
-                <com.caihongzhibo.phonelive.custom.DrawableTextView
+                <com.caihongzhibo.phonelive2.custom.DrawableTextView
                     android:id="@+id/btn_living"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -228,7 +228,7 @@
         android:orientation="horizontal"
         >
 
-        <com.caihongzhibo.phonelive.custom.LeftDrawableTextView
+        <com.caihongzhibo.phonelive2.custom.LeftDrawableTextView
             android:id="@+id/btn_attention"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -253,7 +253,7 @@
             android:background="@color/lineColor"
             />
 
-        <com.caihongzhibo.phonelive.custom.LeftDrawableTextView
+        <com.caihongzhibo.phonelive2.custom.LeftDrawableTextView
             android:id="@+id/btn_private_message"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -278,7 +278,7 @@
             android:background="@color/lineColor"
             />
 
-        <com.caihongzhibo.phonelive.custom.LeftDrawableTextView
+        <com.caihongzhibo.phonelive2.custom.LeftDrawableTextView
             android:id="@+id/btn_pull_black"
             android:layout_width="0dp"
             android:layout_height="match_parent"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.caihongzhibo.phonelive.custom.DragLayout
+<com.caihongzhibo.phonelive2.custom.DragLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
@@ -163,7 +163,7 @@
                     android:paddingRight="5dp"
                     >
 
-                    <com.caihongzhibo.phonelive.custom.DrawableTextView
+                    <com.caihongzhibo.phonelive2.custom.DrawableTextView
                         android:id="@+id/coin_name"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -193,7 +193,7 @@
                         android:textSize="13sp"
                         />
 
-                    <com.caihongzhibo.phonelive.custom.DrawableTextView
+                    <com.caihongzhibo.phonelive2.custom.DrawableTextView
                         android:id="@+id/room_num"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -237,14 +237,14 @@
             </RelativeLayout>
         </RelativeLayout>
 
-        <com.caihongzhibo.phonelive.custom.FrameAnimImageView
+        <com.caihongzhibo.phonelive2.custom.FrameAnimImageView
             android:id="@+id/gift_frame_anim"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             />
 
-        <com.caihongzhibo.phonelive.custom.FrameAnimImageView
+        <com.caihongzhibo.phonelive2.custom.FrameAnimImageView
             android:id="@+id/enter_room_frame_anim_1"
             android:layout_width="match_parent"
             android:layout_height="250dp"
@@ -272,4 +272,4 @@
             />
 
     </RelativeLayout>
-</com.caihongzhibo.phonelive.custom.DragLayout>
+</com.caihongzhibo.phonelive2.custom.DragLayout>

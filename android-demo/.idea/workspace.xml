@@ -177,54 +177,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="279" column="31" selection-start-line="279" selection-start-column="31" selection-end-line="279" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/fragment/UserFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-              <folding>
-                <element signature="e#3174#3514#0" expanded="true" />
-                <element signature="e#3513#3514#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="501" column="13" lean-forward="true" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
-              <folding>
-                <element signature="e#19153#19163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -240,6 +193,7 @@
       <find>mRecyclerView</find>
       <find>onItemClick</find>
       <find>setData</find>
+      <find>android:authorities</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -5706,7 +5660,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_loading.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebViewEmptyViewClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebViewActivity2.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
@@ -5714,6 +5667,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/adapter/UserFunctionAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpUtil.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -5749,8 +5703,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -5774,13 +5728,6 @@
               <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="generated" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="outputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -5795,6 +5742,14 @@
               <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="outputs" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -5819,17 +5774,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="phonelive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="phonelive" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="phonelive2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -6015,27 +5960,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32897604" />
-      <window_info anchor="right" id="Preview" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
-      <window_info anchor="bottom" id="Logcat" order="10" weight="0.6567657" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.550055" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18196371" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32893288" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32977587" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.27558637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -6045,9 +5989,8 @@
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32897604" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20384204" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Logcat" order="10" weight="0.550055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -6061,9 +6004,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32893288" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
@@ -6077,7 +6020,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/utils/LoginUtil.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/utils/LoginUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
@@ -6112,14 +6055,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/AppConfig.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/LauncherActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/LauncherActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
@@ -6133,21 +6076,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/Data.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/http/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpCallback.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/http/HttpCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/JsonBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/http/JsonBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -6172,13 +6115,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SB.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SimpleProgressDialog.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainWebviewActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/AbsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -6194,14 +6130,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/Appdata.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/Appdata.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/WebActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
@@ -6223,7 +6159,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/dialog/SimpleProgressDialog.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/dialog/SimpleProgressDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="36" column="61" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="61" />
@@ -6243,7 +6179,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebViewActivity2.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/WebViewActivity2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="62" column="49" selection-start-line="62" selection-start-column="49" selection-end-line="62" selection-end-column="49" />
@@ -6275,16 +6211,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_list_head_user.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -6311,49 +6237,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/glide/ImgLoader.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/glide/ImgLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/bean/UserBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/bean/UserBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/bean/UserFunctionBean.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/bean/UserFunctionBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="279" column="31" selection-start-line="279" selection-start-column="31" selection-end-line="279" selection-end-column="31" />
+        <state relative-caret-position="5497">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/fragment/UserFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-          <folding>
-            <element signature="e#3174#3514#0" expanded="true" />
-            <element signature="e#3513#3514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/adapter/UserFunctionAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/adapter/UserFunctionAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
@@ -6365,20 +6280,44 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/http/HttpUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="87">
+          <caret line="500" column="13" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpUtil.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/activity/AbsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="501" column="13" lean-forward="true" selection-start-line="501" selection-start-column="13" selection-end-line="501" selection-end-column="13" />
+        <state relative-caret-position="-1202">
+          <caret column="44" selection-start-column="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#19153#19163#0" expanded="true" />
+            <element signature="e#2022#2040#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive2/fragment/UserFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
         </state>
       </provider>
     </entry>

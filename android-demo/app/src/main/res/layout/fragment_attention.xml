@@ -5,7 +5,7 @@
              xmlns:app="http://schemas.android.com/apk/res-auto"
     >
 
-    <com.caihongzhibo.phonelive.custom.RefreshLayout
+    <com.caihongzhibo.phonelive2.custom.RefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -40,6 +40,6 @@
         </RelativeLayout>
 
 
-    </com.caihongzhibo.phonelive.custom.RefreshLayout>
+    </com.caihongzhibo.phonelive2.custom.RefreshLayout>
 
 </FrameLayout>

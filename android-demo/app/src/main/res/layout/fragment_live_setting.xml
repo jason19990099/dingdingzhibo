@@ -6,7 +6,7 @@
               android:orientation="vertical"
     >
 
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/kick"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -16,7 +16,7 @@
         android:textSize="16sp"
         />
 
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/btn_gap"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -26,7 +26,7 @@
         android:textSize="16sp"
         />
 
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/btn_set_admin"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -35,7 +35,7 @@
         android:textSize="16sp"
         />
 
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/btn_admin_list"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -45,7 +45,7 @@
         android:textSize="16sp"
         />
 
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/btn_close_live"
         android:layout_width="match_parent"
         android:layout_height="45dp"
@@ -55,7 +55,7 @@
         android:textSize="16sp"
         android:visibility="gone"
         />
-    <com.caihongzhibo.phonelive.custom.TextView2
+    <com.caihongzhibo.phonelive2.custom.TextView2
         android:id="@+id/btn_forbid_account"
         android:layout_width="match_parent"
         android:layout_height="45dp"

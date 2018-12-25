@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.caihongzhibo.phonelive.game.luckpan.PanRootView
+<com.caihongzhibo.phonelive2.game.luckpan.PanRootView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
@@ -8,12 +8,12 @@
     app:deltaHeight="30dp"
     >
 
-    <com.caihongzhibo.phonelive.game.luckpan.PanWrap
+    <com.caihongzhibo.phonelive2.game.luckpan.PanWrap
         android:layout_width="match_parent"
         android:layout_height="0dp"
         >
 
-        <com.caihongzhibo.phonelive.game.luckpan.PanView
+        <com.caihongzhibo.phonelive2.game.luckpan.PanView
             android:id="@+id/pan"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -44,7 +44,7 @@
             android:layout_centerInParent="true"
             android:translationY="-30dp"
             />
-    </com.caihongzhibo.phonelive.game.luckpan.PanWrap>
+    </com.caihongzhibo.phonelive2.game.luckpan.PanWrap>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
             android:orientation="horizontal"
             >
 
-            <com.caihongzhibo.phonelive.game.luckpan.ZpBetView
+            <com.caihongzhibo.phonelive2.game.luckpan.ZpBetView
                 android:id="@+id/role_1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
                 app:src="@mipmap/icon_zp_1"
                 />
 
-            <com.caihongzhibo.phonelive.game.luckpan.ZpBetView
+            <com.caihongzhibo.phonelive2.game.luckpan.ZpBetView
                 android:id="@+id/role_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
                 app:src="@mipmap/icon_zp_2"
                 />
 
-            <com.caihongzhibo.phonelive.game.luckpan.ZpBetView
+            <com.caihongzhibo.phonelive2.game.luckpan.ZpBetView
                 android:id="@+id/role_3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 app:src="@mipmap/icon_zp_3"
                 />
 
-            <com.caihongzhibo.phonelive.game.luckpan.ZpBetView
+            <com.caihongzhibo.phonelive2.game.luckpan.ZpBetView
                 android:id="@+id/role_4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -139,4 +139,4 @@
         android:textSize="20sp"
         />
 
-</com.caihongzhibo.phonelive.game.luckpan.PanRootView>
+</com.caihongzhibo.phonelive2.game.luckpan.PanRootView>

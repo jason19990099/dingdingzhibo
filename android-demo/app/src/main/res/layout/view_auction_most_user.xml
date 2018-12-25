@@ -23,7 +23,7 @@
         android:textSize="12sp"
         />
 
-    <com.caihongzhibo.phonelive.custom.DrawableTextView
+    <com.caihongzhibo.phonelive2.custom.DrawableTextView
         android:id="@+id/most_price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

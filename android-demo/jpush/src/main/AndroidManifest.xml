@@ -3,7 +3,7 @@
 
     <!--接三方的时候,修改这里的包名-->
     <permission
-        android:name="com.caihongzhibo.phonelive.permission.JPUSH_MESSAGE"
+        android:name="com.caihongzhibo.phonelive2.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature"/>
 
     <!--接三方的时候,修改这里的包名-->
@@ -95,7 +95,7 @@
         <!--接三方的时候,修改这里的包名-->
         <provider
             android:name="cn.jpush.android.service.DataProvider"
-            android:authorities="com.caihongzhibo.phonelive.DataProvider"
+            android:authorities="com.caihongzhibo.phonelive2.DataProvider"
             android:exported="true" />
 
         <!-- 极光IM 核心功能-->

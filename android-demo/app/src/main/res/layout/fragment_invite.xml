@@ -54,7 +54,7 @@
             android:src="@mipmap/icon_invite_close"
             />
 
-        <com.caihongzhibo.phonelive.custom.PwdEditText
+        <com.caihongzhibo.phonelive2.custom.PwdEditText
             android:id="@+id/pwd_text"
             android:layout_width="match_parent"
             android:layout_height="40dp"

@@ -14,7 +14,7 @@
         android:orientation="vertical"
         >
 
-        <com.caihongzhibo.phonelive.custom.DrawableRadioButton
+        <com.caihongzhibo.phonelive2.custom.DrawableRadioButton
             android:id="@+id/nan"
             android:layout_width="90dp"
             android:layout_height="120dp"
@@ -31,7 +31,7 @@
             android:clickable="true"
             />
 
-        <com.caihongzhibo.phonelive.custom.DrawableRadioButton
+        <com.caihongzhibo.phonelive2.custom.DrawableRadioButton
             android:id="@+id/nv"
             android:layout_width="90dp"
             android:layout_height="120dp"

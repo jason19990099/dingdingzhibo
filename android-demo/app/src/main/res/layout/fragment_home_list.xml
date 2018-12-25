@@ -12,7 +12,7 @@
         android:background="@color/white"
         >
 
-        <com.caihongzhibo.phonelive.custom.ViewPagerIndicator
+        <com.caihongzhibo.phonelive2.custom.ViewPagerIndicator
             android:id="@+id/indicator"
             android:layout_width="150dp"
             android:layout_height="match_parent"

@@ -33,7 +33,7 @@
             android:textSize="16sp"
             />
 
-        <com.caihongzhibo.phonelive.custom.DrawableTextView
+        <com.caihongzhibo.phonelive2.custom.DrawableTextView
             android:id="@+id/most_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         android:layout_height="50dp"
         >
 
-        <com.caihongzhibo.phonelive.custom.DrawableTextView
+        <com.caihongzhibo.phonelive2.custom.DrawableTextView
             android:id="@+id/coin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

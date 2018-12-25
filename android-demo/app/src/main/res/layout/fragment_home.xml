@@ -24,7 +24,7 @@
             android:padding="4dp"
             />
 
-        <com.caihongzhibo.phonelive.custom.ViewPagerIndicator
+        <com.caihongzhibo.phonelive2.custom.ViewPagerIndicator
             android:id="@+id/indicator"
             android:layout_width="200dp"
             android:layout_height="match_parent"

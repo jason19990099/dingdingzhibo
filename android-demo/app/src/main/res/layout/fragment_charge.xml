@@ -20,7 +20,7 @@
         android:orientation="vertical"
         >
 
-        <com.caihongzhibo.phonelive.custom.DrawableTextView
+        <com.caihongzhibo.phonelive2.custom.DrawableTextView
             android:id="@+id/btn_ali"
             android:layout_width="match_parent"
             android:layout_height="60dp"
@@ -42,7 +42,7 @@
             android:background="@color/lineColor"
             />
 
-        <com.caihongzhibo.phonelive.custom.DrawableTextView
+        <com.caihongzhibo.phonelive2.custom.DrawableTextView
             android:id="@+id/btn_wx"
             android:layout_width="match_parent"
             android:layout_height="60dp"
