@@ -31,6 +31,20 @@ android {
         }
 
     }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${variant.productFlavors[0].name}-${defaultConfig.versionName}-${defaultConfig.versionCode}" +
+                    "-${releaseTime()}-${variant.buildType.name}.apk"
+        }
+    }
+    // 打包的渠道
+    productFlavors {
+        dingding {}
+    }
+
+
+
     defaultConfig {
         ndk {
             //设置支持的SO库架构
@@ -99,4 +113,10 @@ dependencies {
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
 
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+}
+
+
+//获取当前打包的时间
+def static releaseTime() {
+    return new Date().format("yyyyMMdd-HHmmss")
 }
