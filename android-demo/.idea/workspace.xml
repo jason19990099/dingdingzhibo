@@ -5,11 +5,243 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e419bdde-ba76-4d04-8f6e-c80afa56d532" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/assets/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/multidex-instrumentation/1.0.1/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.hyphenate/hyphenate-sdk/3.3.0/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ksyun.media/libksylive-armv7a/2.4.0/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ksyun.media/libksylive-java/2.4.0/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.lzy.net/okgo/3.0.4/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.makeramen/roundedimageview/2.3.0/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.tencent.bugly/crashreport/2.2.2/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.youth.banner/banner/1.4.9/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/2.0.2/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.2.10/jars/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/multi-dex/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/pre-dexed/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/symbols/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/app/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/annotations/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/game/build/intermediates/typedefs.txt/" />
+    <ignored path="$PROJECT_DIR$/game/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/game/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/annotations/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/ti-sdk/jars/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/intermediates/typedefs.txt/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/beauty/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/annotations/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/intermediates/typedefs.txt/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/jpush/build/tmp/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/annotations/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/blame/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/bundles/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/classes/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/dependency-cache/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/incremental/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/incremental-safeguard/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/jniLibs/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/lint/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/manifests/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/res/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/rs/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/shaders/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/transforms/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/intermediates/typedefs.txt/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/outputs/" />
+    <ignored path="$PROJECT_DIR$/sharedsdk/build/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android-demo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android-demo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android-demo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android-demo" type="f1a62948:ProjectNode" />
+                <item name=":app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jpush/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/AbsActivity2.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpUtil.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1877" />
     <option name="y" value="2" />
     <option name="width" value="1936" />
     <option name="height" value="1075" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="android-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android-demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="android-demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="android-demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="phonelive" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="android-demo" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="phonelive" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="SDK Location" />
@@ -20,7 +252,19 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="sync.plugin.last.upgrade.timestamp" value="1545120463342" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.android-demo:app [assembleDebug]">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -41,7 +285,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -93,6 +337,40 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="android-demo:app [assembleDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleDebug" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="android-demo:app [assembleRelease]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assembleRelease" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -119,9 +397,351 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
     </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.android-demo:app [assembleRelease]" />
+      <item itemvalue="Gradle.android-demo:app [assembleDebug]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.android-demo:app [assembleDebug]" />
+        <item itemvalue="Gradle.android-demo:app [assembleRelease]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e419bdde-ba76-4d04-8f6e-c80afa56d532" name="Default" comment="" />
+      <created>1545120453966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545120453966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Logcat" order="10" weight="0.27233115" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32897604" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Preview" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sharedsdk/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="49" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/LauncherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="57" column="37" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/JsonBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/fc70ffa234e7e77741867d38b341d162ec1ec01e/okhttp-3.8.1-sources.jar!/okhttp3/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SharePreferencesUtil.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/ShareUtils.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SocketUtil.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/IntentUtil.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SystemUtil.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/CustomDialog.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/FormatTransfer.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/TrustAllCerts.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SB.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/util/SimpleProgressDialog.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainWebviewActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/AbsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-25/android/webkit/WebView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="319" column="13" selection-start-line="319" selection-start-column="13" selection-end-line="319" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/Appdata.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_loading.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/progress_bg.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/dialog/SimpleProgressDialog.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebViewEmptyViewClient.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/dialog_enter.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/WebViewActivity2.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home_webview.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1587">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="49" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_list_head_user.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_list_user_function.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_user.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/glide/ImgLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/bean/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/bean/UserFunctionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/adapter/UserFunctionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/AbsActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/AbsActivity2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="95" column="14" selection-start-line="95" selection-start-column="14" selection-end-line="95" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/fragment/UserFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5244">
+          <caret line="281" column="38" selection-start-line="281" selection-start-column="38" selection-end-line="281" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.lzy.net/okgo/3.0.4/4db61c4d59a8f4893a18d7d9c98453d6a8abf51d/okgo-3.0.4-sources.jar!/com/lzy/okgo/OkGo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1357">
+          <caret line="103" column="37" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
+          <folding>
+            <element signature="e#3794#3795#0" expanded="true" />
+            <element signature="e#3839#3840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/caihongzhibo/phonelive/http/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2155">
+          <caret line="546" column="35" lean-forward="true" selection-start-line="546" selection-start-column="35" selection-end-line="546" selection-end-column="35" />
+          <folding>
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2520#2521#0" expanded="true" />
+            <element signature="e#7884#7894#0" expanded="true" />
+            <element signature="e#8214#8224#0" expanded="true" />
+            <element signature="e#8325#9626#0" expanded="true" />
+            <element signature="e#9625#9626#0" expanded="true" />
+            <element signature="e#9763#9773#0" expanded="true" />
+            <element signature="e#10070#10080#0" expanded="true" />
+            <element signature="e#10412#10422#0" expanded="true" />
+            <element signature="e#10879#10889#0" expanded="true" />
+            <element signature="e#11358#11368#0" expanded="true" />
+            <element signature="e#11736#11746#0" expanded="true" />
+            <element signature="e#12186#12194#0" expanded="true" />
+            <element signature="e#12489#12499#0" expanded="true" />
+            <element signature="e#12711#12721#0" expanded="true" />
+            <element signature="e#13007#13017#0" expanded="true" />
+            <element signature="e#13308#13318#0" expanded="true" />
+            <element signature="e#13732#13779#0" expanded="true" />
+            <element signature="e#13825#13835#0" expanded="true" />
+            <element signature="e#15309#15319#0" expanded="true" />
+            <element signature="e#15651#15661#0" expanded="true" />
+            <element signature="e#16073#16083#0" expanded="true" />
+            <element signature="e#16498#16508#0" expanded="true" />
+            <element signature="e#16924#16934#0" expanded="true" />
+            <element signature="e#17285#17295#0" expanded="true" />
+            <element signature="e#17778#17788#0" expanded="true" />
+            <element signature="e#18255#18265#0" expanded="true" />
+            <element signature="e#18718#18728#0" expanded="true" />
+            <element signature="e#19102#19112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpush/jpush.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jpush/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
