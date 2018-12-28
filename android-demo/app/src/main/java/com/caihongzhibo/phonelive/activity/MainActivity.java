@@ -202,7 +202,7 @@ public class MainActivity extends AbsActivity {
         HttpUtil.getConfig(new CommonCallback<ConfigBean>() {
             @Override
             public void callback(ConfigBean bean) {
-                checkVersion();
+//                checkVersion();
                 checkMaintain();
             }
         });
