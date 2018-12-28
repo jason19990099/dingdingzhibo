@@ -24,12 +24,12 @@
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png",
@@ -144,12 +144,12 @@
         "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",

@@ -39,7 +39,7 @@
                 <action android:name="cn.jpush.android.ui.PushActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive"/>
+                <category android:name="com.caihongzhibo.phonelive2"/>
             </intent-filter>
         </activity>
 
@@ -62,7 +62,7 @@
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.DaemonService"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive"/>
+                <category android:name="com.caihongzhibo.phonelive2"/>
             </intent-filter>
 
         </service>
@@ -74,7 +74,7 @@
             <intent-filter android:priority="1000">
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive"/>
+                <category android:name="com.caihongzhibo.phonelive2"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.USER_PRESENT"/>
@@ -107,17 +107,17 @@
                 <action android:name="cn.jpush.im.android.action.IM_RESPONSE" />
                 <action android:name="cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY" />
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive" />
+                <category android:name="com.caihongzhibo.phonelive2" />
             </intent-filter>
         </receiver>
 
         <meta-data
             android:name="JPUSH_CHANNEL"
-            android:value="developer-default"/>
+            android:value="dingding_user"/>
         <!--接三方的时候,修改这里的APP_KEY-->
         <meta-data
             android:name="JPUSH_APPKEY"
-            android:value="79dc2db7e84e3c0fb3b2ce72"/>
+            android:value="4b9e736c1e97250f605fc95b"/>
 
     </application>
 </manifest>
