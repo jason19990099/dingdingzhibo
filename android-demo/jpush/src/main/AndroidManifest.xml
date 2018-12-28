@@ -1,13 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="jpush">
+          package="com.dingdingzhibo.user">
 
     <!--接三方的时候,修改这里的包名-->
     <permission
-        android:name="com.caihongzhibo.phonelive2.permission.JPUSH_MESSAGE"
+        android:name="com.dingdingzhibo.user.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature"/>
 
     <!--接三方的时候,修改这里的包名-->
-    <uses-permission android:name="com.caihongzhibo.phonelive.permission.JPUSH_MESSAGE"/>
+    <uses-permission android:name="com.dingdingzhibo.user.permission.JPUSH_MESSAGE"/>
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
@@ -39,7 +39,7 @@
                 <action android:name="cn.jpush.android.ui.PushActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive2"/>
+                <category android:name="com.dingdingzhibo.user"/>
             </intent-filter>
         </activity>
 
@@ -62,7 +62,7 @@
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.DaemonService"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive2"/>
+                <category android:name="com.dingdingzhibo.user"/>
             </intent-filter>
 
         </service>
@@ -74,7 +74,7 @@
             <intent-filter android:priority="1000">
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"/>
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive2"/>
+                <category android:name="com.dingdingzhibo.user"/>
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.USER_PRESENT"/>
@@ -95,7 +95,7 @@
         <!--接三方的时候,修改这里的包名-->
         <provider
             android:name="cn.jpush.android.service.DataProvider"
-            android:authorities="com.caihongzhibo.phonelive2.DataProvider"
+            android:authorities="com.dingdingzhibo.user.DataProvider"
             android:exported="true" />
 
         <!-- 极光IM 核心功能-->
@@ -107,7 +107,7 @@
                 <action android:name="cn.jpush.im.android.action.IM_RESPONSE" />
                 <action android:name="cn.jpush.im.android.action.NOTIFICATION_CLICK_PROXY" />
                 <!--接三方的时候,修改这里的包名-->
-                <category android:name="com.caihongzhibo.phonelive2" />
+                <category android:name="com.dingdingzhibo.user" />
             </intent-filter>
         </receiver>
 
