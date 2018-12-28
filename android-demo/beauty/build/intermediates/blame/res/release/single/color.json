@@ -4,20 +4,20 @@
         "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_text_material.xml",
         "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
-        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.3.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_switch_track.xml",

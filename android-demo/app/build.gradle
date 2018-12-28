@@ -16,7 +16,7 @@ android {
         useNewCruncher = false
     }
     defaultConfig {
-        applicationId "com.dingdingzhibo.phonelive1"
+        applicationId "com.dingdingzhibo.zhubo"
         minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
