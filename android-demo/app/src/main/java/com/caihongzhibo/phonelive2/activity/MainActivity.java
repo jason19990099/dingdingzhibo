@@ -90,7 +90,6 @@ public class MainActivity extends AbsActivity {
     private int mUnReadCount;//未读消息数量
     private CheckLivePresenter mCheckLivePresenter;
     private IM mIM;
-    private String lottery_url;
 
     public static void startMainActivity(Context context, Bundle bundle){
         Intent intent=new Intent(context,MainActivity.class);
@@ -310,7 +309,7 @@ public class MainActivity extends AbsActivity {
 
         final OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
-                .url("http://47.89.14.3/api/public/?service=Home.getLink")
+                .url(AppConfig.HOST+AppConfig.URI+"/?service=Home.getLink")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
@@ -323,7 +322,7 @@ public class MainActivity extends AbsActivity {
                 Appdata appdata=new Gson().fromJson(response.body().string(), com.caihongzhibo.phonelive2.activity.Appdata.class);
                 Intent intent = new Intent(mContext, com.caihongzhibo.phonelive2.activity.WebViewActivity2.class);
                 intent.putExtra("url",appdata.getData().getInfo());
-                Log.e("=========",appdata.getData().getInfo());
+                Log.e("====url=====",appdata.getData().getInfo());
                 startActivity(intent);
             }
         });
