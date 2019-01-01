@@ -11,6 +11,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.net.Uri;
+import android.net.http.SslError;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
@@ -18,13 +19,16 @@ import android.os.Parcelable;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.SslErrorHandler;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -41,7 +45,6 @@ import java.util.List;
 
 public class WebViewActivity2 extends AppCompatActivity {
     public static final String EXTRA_WEB_TITLE = "Title_Name";
-    public static final String EXTRA_WEB_URL = "url";
     public static final String EXTRA_HIDE_TITLE = "hide_title";
 
     private String mUrl;
@@ -88,6 +91,8 @@ public class WebViewActivity2 extends AppCompatActivity {
         if (!mUrl.contains("http")){
             mUrl= "http://"+mUrl;
         }
+
+        Log.e("WebViewActivity2====",mUrl);
         initWebSetting(mUrl);
     }
 
@@ -107,11 +112,24 @@ public class WebViewActivity2 extends AppCompatActivity {
         settings.setBlockNetworkImage(false);// 解决图片不显示
         settings.setAllowContentAccess(true);
         settings.setAppCacheEnabled(true);
+        settings.setCacheMode(WebSettings.LOAD_NO_CACHE);
+        settings.setAllowFileAccess(true);
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
         mWebView.requestFocus();
         mWebView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
         mWebView.setWebChromeClient(new AppCacheWebChromeClient());
+
+        mWebView.setWebViewClient(new WebViewClient() {
+
+            @Override
+            public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+                handler.proceed();
+            }
+        });
 
         mWebView.loadUrl(url);
 
@@ -131,7 +149,6 @@ public class WebViewActivity2 extends AppCompatActivity {
         @Override
         public void onReceivedTitle(WebView view, String title) {
             super.onReceivedTitle(view, title);
-            //title_name.setText(title);
         }
 
         @Override
@@ -157,6 +174,8 @@ public class WebViewActivity2 extends AppCompatActivity {
             mUploadMessage = uploadMsg;
             take();
         }
+
+
     }
 
     private Uri imageUri;
