@@ -713,6 +713,7 @@ public class LiveAnimPresenter {
             mGiftAnimHolders[1].setEndRunnable(new Runnable() {
                 @Override
                 public void run() {
+                    if (null!=mHandler)
                     mHandler.sendEmptyMessageDelayed(1, 4000);
                 }
             });
