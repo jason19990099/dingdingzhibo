@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: :ti-sdk:@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/ti-sdk/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/ti-sdk/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
