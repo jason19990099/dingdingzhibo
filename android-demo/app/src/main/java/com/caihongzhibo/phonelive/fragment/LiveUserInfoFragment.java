@@ -6,11 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -28,7 +25,6 @@ import com.caihongzhibo.phonelive.http.HttpUtil;
 import com.caihongzhibo.phonelive.interfaces.CommonCallback;
 import com.caihongzhibo.phonelive.socket.SocketUtil;
 import com.caihongzhibo.phonelive.utils.DialogUitl;
-import com.caihongzhibo.phonelive.utils.DpUtil;
 import com.caihongzhibo.phonelive.utils.IconUitl;
 import com.caihongzhibo.phonelive.utils.ToastUtil;
 
@@ -66,6 +62,7 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
     private UserBean mUserBean;
     private int mAction;
     private int mIsAttention;
+    private TextView tv_knick, tv_shutup;
 
 
     @NonNull
@@ -75,12 +72,12 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
         Dialog dialog = new Dialog(mContext, R.style.dialog2);
         mRootView = LayoutInflater.from(mContext).inflate(R.layout.fragment_live_user, null, false);
         dialog.setContentView(mRootView);
-        Window window = dialog.getWindow();
-        WindowManager.LayoutParams params = window.getAttributes();
-        params.width = DpUtil.dp2px(280);
-        params.height = DpUtil.dp2px(350);
-        params.gravity = Gravity.CENTER;
-        window.setAttributes(params);
+//        Window window = dialog.getWindow();
+//        WindowManager.LayoutParams params = window.getAttributes();
+//        params.width = DpUtil.dp2px(280);
+//        params.height = DpUtil.dp2px(450);
+//        params.gravity = Gravity.CENTER;
+//        window.setAttributes(params);
         return dialog;
     }
 
@@ -114,6 +111,13 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
         mBtnHome.setOnClickListener(this);
         mBtnReport.setOnClickListener(this);
         mBtnSetting.setOnClickListener(this);
+
+        tv_knick = (TextView) mRootView.findViewById(R.id.tv_knick);
+        tv_knick.setOnClickListener(this);
+        tv_shutup = (TextView) mRootView.findViewById(R.id.tv_shutup);
+        tv_shutup.setOnClickListener(this);
+
+
         mRootView.findViewById(R.id.btn_close).setOnClickListener(this);
         Bundle bundle = getArguments();
         mTouid = bundle.getString("touid");
@@ -121,6 +125,8 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
         if (mTouid.equals(AppConfig.getInstance().getUid())) {
             mBtnAttention.setVisibility(View.GONE);
             mBtnChat.setVisibility(View.GONE);
+            tv_knick.setVisibility(View.GONE);
+            tv_shutup.setVisibility(View.GONE);
         }
     }
 
@@ -212,6 +218,12 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
             case R.id.btn_close:
                 dismiss();
                 break;
+            case R.id.tv_knick: //踢线
+                kick();
+                break;
+            case R.id.tv_shutup: //禁言
+                setShutUp();
+                break;
         }
     }
 
@@ -280,6 +292,41 @@ public class LiveUserInfoFragment extends DialogFragment implements View.OnClick
             ToastUtil.show(JSON.parseObject(info[0]).getString("msg"));
         }
     };
+
+    /**
+     * 踢人
+     */
+    private void kick() {
+        HttpUtil.kicking(mUserBean.getId(), mLiveuid, new HttpCallback() {
+            @Override
+            public void onSuccess(int code, String msg, String[] info) {
+                if (code == 0) {
+                    SocketUtil.getInstance().kickUser(mUserBean.getId(), mUserBean.getUser_nicename());
+                    //发送这个消息是为了让个人信息弹窗关闭
+                    EventBus.getDefault().post(new LiveSettingCloseEvent());
+                } else {
+                    ToastUtil.show(msg);
+                }
+            }
+        });
+    }
+
+    /**
+     * 禁言
+     */
+    private void setShutUp() {
+        HttpUtil.setShutUp(mUserBean.getId(), mLiveuid, new HttpCallback() {
+            @Override
+            public void onSuccess(int code, String msg, String[] info) {
+                if (code == 0) {
+                    SocketUtil.getInstance().shutUpUser(mUserBean.getId(), mUserBean.getUser_nicename(), "") ;
+                } else {
+                    ToastUtil.show(msg);
+                }
+            }
+        });
+    }
+
 
     @Override
     public void onDestroyView() {
