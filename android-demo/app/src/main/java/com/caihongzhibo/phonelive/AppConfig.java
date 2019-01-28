@@ -19,7 +19,7 @@ import com.caihongzhibo.phonelive.utils.SharedPreferencesUtil;
 
 public class AppConfig {
     //域名
-    public static final String HOST = "http://ding222.com";
+    public static final String HOST = "http://43.226.125.190";
     public static final String URI = "/api/public";
     //socket的端口号
     public String mSocketServer = HOST + ":19969";
