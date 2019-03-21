@@ -33,7 +33,6 @@
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
@@ -153,18 +152,6 @@
     <orderEntry type="library" exported="" name="Gradle: com.ksyun.media:libksylive-java:2.4.0@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.github.bumptech.glide:glide:3.7.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-fragment:25.3.1@aar" level="project" />
-    <orderEntry type="module" module-name="sharedsdk" exported="" />
-    <orderEntry type="module" module-name="beauty" exported="" />
-    <orderEntry type="module" module-name="jpush" exported="" />
-    <orderEntry type="module" module-name="game" exported="" />
-    <orderEntry type="module" module-name="sharedsdk" exported="" />
-    <orderEntry type="module" module-name="beauty" exported="" />
-    <orderEntry type="module" module-name="jpush" exported="" />
-    <orderEntry type="module" module-name="game" exported="" />
-    <orderEntry type="module" module-name="sharedsdk" exported="" />
-    <orderEntry type="module" module-name="beauty" exported="" />
-    <orderEntry type="module" module-name="jpush" exported="" />
-    <orderEntry type="module" module-name="game" exported="" />
     <orderEntry type="module" module-name="sharedsdk" exported="" />
     <orderEntry type="module" module-name="beauty" exported="" />
     <orderEntry type="module" module-name="jpush" exported="" />
