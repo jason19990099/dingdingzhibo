@@ -154,7 +154,7 @@ public class HttpUtil {
     public static final String GAME_LUCK_PAN_BET = "gameLuckPanBet";
     public static final String GET_LINKMICSTREAM = "getLinkMicStream";
     public static final String LINK_MIC_SHOW_VIDEO = "linkMicShowVideo";
-
+    public static final String GET_IP_ARRY = "getiparry";
     /**
      * 验证token是否过期
      *
@@ -1299,6 +1299,15 @@ public class HttpUtil {
                     }
                 });
     }
+
+
+
+    public static void getIparrist(HttpCallback callback) {
+        OkGo.<JsonBean>get("http://api.dd7666.com/index.php?r=index/getapi")
+                .tag(GET_IP_ARRY)
+                .execute(callback);
+    }
+
 }
 
 
