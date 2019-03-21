@@ -1,7 +1,8 @@
 package com.caihongzhibo.phonelive2.activity;
 
 import android.util.Log;
-import com.caihongzhibo.phonelive.bean.IParray;
+import com.caihongzhibo.phonelive2.bean.IParray;
+import com.caihongzhibo.phonelive2.AppContext;
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
 import com.caihongzhibo.phonelive2.AppConfig;

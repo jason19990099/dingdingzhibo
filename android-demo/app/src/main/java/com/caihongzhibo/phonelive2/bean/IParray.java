@@ -1,4 +1,4 @@
-package com.caihongzhibo.phonelive.bean;
+package com.caihongzhibo.phonelive2.bean;
 
 import java.io.Serializable;
 import java.util.List;
