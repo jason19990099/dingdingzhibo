@@ -1,8 +1,6 @@
 package com.caihongzhibo.phonelive.activity;
 
-import android.os.Build;
 import android.util.Log;
-
 import com.caihongzhibo.phonelive.bean.IParray;
 import com.google.gson.Gson;
 import com.lzy.okgo.model.Response;
@@ -26,9 +24,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.SSLSession;
 import cn.sharesdk.framework.ShareSDK;
 import okhttp3.Call;
 import okhttp3.Callback;

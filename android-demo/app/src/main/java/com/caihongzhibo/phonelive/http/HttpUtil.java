@@ -1302,11 +1302,6 @@ public class HttpUtil {
 
 
 
-    public static void getIparrist(HttpCallback callback) {
-        OkGo.<JsonBean>get("http://api.dd7666.com/index.php?r=index/getapi")
-                .tag(GET_IP_ARRY)
-                .execute(callback);
-    }
 
 }
 
