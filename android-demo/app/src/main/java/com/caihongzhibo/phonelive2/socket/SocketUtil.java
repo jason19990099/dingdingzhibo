@@ -64,7 +64,7 @@ public class SocketUtil {
             option.reconnectionDelay = 2000;
             mSocket = IO.socket(AppConfig.getInstance().getSocketServer(), option);
             mSocketHandler = new SocketHandler();
-        } catch (URISyntaxException e) {
+        } catch (Exception e) {
             e.printStackTrace();
             L.e(TAG, "socket异常--->" + e.getMessage());
         }
@@ -191,11 +191,13 @@ public class SocketUtil {
     };
 
     public SocketUtil setMessageListener(SocketMsgListener listener) {
+        if (null!=listener&&null!=mSocketHandler)
         mSocketHandler.setSocketMsgListener(listener);
         return this;
     }
 
     public SocketUtil setGameManager(GameManager gameManager) {
+        if (null!=gameManager&&null!=mSocketHandler)
         mSocketHandler.setGameManager(gameManager);
         return this;
     }

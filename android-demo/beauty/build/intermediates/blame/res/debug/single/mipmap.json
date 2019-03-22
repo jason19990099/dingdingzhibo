@@ -1,15 +1,7 @@
 [
     {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_tiezhi_download.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_tiezhi_download.png"
-    },
-    {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_2.png",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_2.png"
-    },
-    {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_3.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_3.png"
     },
     {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\loading2.png",
@@ -28,39 +20,15 @@
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_tiezhi_none.png"
     },
     {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_4.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_4.png"
-    },
-    {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_tiezhi_none.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_tiezhi_none.png"
-    },
-    {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_none.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_none.png"
-    },
-    {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_1.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_1.png"
-    },
-    {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_none.png",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_none.png"
-    },
-    {
-        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_4.png",
-        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_4.png"
     },
     {
         "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_1.png",
         "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_1.png"
     },
     {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_2.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_2.png"
-    },
-    {
-        "merged": "D:\\workspace\\android-demo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\loading2.png",
-        "source": "D:\\workspace\\android-demo\\android-demo\\beauty\\src\\main\\res\\mipmap\\loading2.png"
+        "merged": "D:\\dingdingzhiibo\\android-demo\\beauty\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_record_haha_4.png",
+        "source": "D:\\dingdingzhiibo\\android-demo\\beauty\\src\\main\\res\\mipmap\\icon_record_haha_4.png"
     }
 ]
