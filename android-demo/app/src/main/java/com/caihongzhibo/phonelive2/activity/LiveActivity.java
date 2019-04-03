@@ -60,6 +60,7 @@ import com.caihongzhibo.phonelive2.utils.DpUtil;
 import com.caihongzhibo.phonelive2.utils.L;
 import com.caihongzhibo.phonelive2.utils.ToastUtil;
 import com.caihongzhibo.phonelive2.utils.WordUtil;
+import com.umeng.analytics.MobclickAgent;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -307,6 +308,14 @@ public abstract class LiveActivity extends AbsActivity2 implements SocketMsgList
     protected void onResume() {
         super.onResume();
         showUnReadCount();
+        MobclickAgent.onResume(this);
+    }
+
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 
     public void liveClick(View v) {

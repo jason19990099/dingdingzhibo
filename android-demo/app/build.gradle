@@ -18,9 +18,9 @@ android {
     defaultConfig {
         applicationId "com.dingdingzhibo.user"
         minSdkVersion 19
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0.1"
+        targetSdkVersion 22
+        versionCode 2
+        versionName "1.1.2"
         multiDexEnabled true
     }
     buildTypes {
@@ -101,5 +101,8 @@ dependencies {
     compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.10'
 
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+
+    compile  'com.umeng.umsdk:analytics:8.0.0'
+    compile  'com.umeng.umsdk:common:2.0.0'
 }
 

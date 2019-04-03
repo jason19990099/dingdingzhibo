@@ -1,5 +1,7 @@
 package com.caihongzhibo.phonelive2.utils;
 
+import android.util.Log;
+
 import com.caihongzhibo.phonelive2.AppContext;
 
 import java.util.Set;
@@ -17,7 +19,9 @@ public class JPushUtil {
     public static boolean isSetAlians;
 
     public static void init() {
+        if (null!=AppContext.sInstance)
         JPushInterface.init(AppContext.sInstance);
+        Log.e("AppContext.sInstance",AppContext.sInstance+"");
     }
 
     public static void setAlias(String uid) {
