@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: :ti-sdk:@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/ti-sdk/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/beauty/build/intermediates/exploded-aar/ti-sdk/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90d874f6436510012f2daef540f42fe8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90d874f6436510012f2daef540f42fe8/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

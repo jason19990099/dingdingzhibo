@@ -33,6 +33,7 @@ import com.caihongzhibo.phonelive2.fragment.ExitFragment;
 import com.caihongzhibo.phonelive2.fragment.HomeFragment;
 import com.caihongzhibo.phonelive2.fragment.HomeListFragment;
 import com.caihongzhibo.phonelive2.fragment.HomeNearFragment;
+import com.caihongzhibo.phonelive2.fragment.HomeXHYFragment;
 import com.caihongzhibo.phonelive2.fragment.InviteFragment;
 import com.caihongzhibo.phonelive2.fragment.UserFragment;
 import com.caihongzhibo.phonelive2.http.HttpCallback;
@@ -63,7 +64,6 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-//import cn.jpush.im.android.api.model.Message;
 
 /**
  * Created by cxf on 2017/8/8.
@@ -84,7 +84,7 @@ public class MainActivity extends AbsActivity {
     private SparseArray<Fragment> mMap;
     private int mCurFragmentKey;
     private HomeFragment mHomeFragment;
-    private HomeNearFragment mNearFragment;
+    private HomeXHYFragment mNearFragment;
     private HomeListFragment mListFragment;
     private UserFragment mUserFragment;
     private int mUnReadCount;//未读消息数量
@@ -107,7 +107,7 @@ public class MainActivity extends AbsActivity {
         mBtnMe = findViewById(R.id.btn_me);
         mMap = new SparseArray<>();
         mHomeFragment = new HomeFragment();
-        mNearFragment = new HomeNearFragment();
+        mNearFragment = new HomeXHYFragment();
         mListFragment = new HomeListFragment();
         mUserFragment = new UserFragment();
         mMap.put(HOME, mHomeFragment);
@@ -251,7 +251,7 @@ public class MainActivity extends AbsActivity {
             mUnReadCount = mIM.getAllUnReadCount();
             L.e("IM", "未读消息数量---->" + mUnReadCount);
             mHomeFragment.setUnReadCount(mUnReadCount);
-            mNearFragment.setUnReadCount(mUnReadCount);
+//            mNearFragment.setUnReadCount(mUnReadCount);
         } catch (Exception e) {
             L.e("showUnReadCount--->" + e.getClass() + "--->" + e.getMessage());
             DialogUitl.messageDialog(mContext, WordUtil.getString(R.string.tip), WordUtil.getString(R.string.temp_var_clear) + WordUtil.getString(R.string.app_name), new DialogUitl.Callback2() {
@@ -270,14 +270,14 @@ public class MainActivity extends AbsActivity {
     public void ignoreUnRead(IgnoreUnReadEvent e) {
         mUnReadCount = 0;
         mHomeFragment.setUnReadCount(mUnReadCount);
-        mNearFragment.setUnReadCount(mUnReadCount);
+//        mNearFragment.setUnReadCount(mUnReadCount);
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void receiveMessage(Message message) {
         mUnReadCount++;
         mHomeFragment.setUnReadCount(mUnReadCount);
-        mNearFragment.setUnReadCount(mUnReadCount);
+//        mNearFragment.setUnReadCount(mUnReadCount);
     }
 
 

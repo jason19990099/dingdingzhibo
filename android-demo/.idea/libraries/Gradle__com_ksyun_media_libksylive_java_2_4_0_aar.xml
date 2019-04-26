@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.ksyun.media:libksylive-java:2.4.0@aar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ksyun.media/libksylive-java/2.4.0/jars/classes.jar!/" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ksyun.media/libksylive-java/2.4.0/jars/libs/ksylive.jar!/" />
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ksyun.media/libksylive-java/2.4.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff12e3a581fc0dd856f3e25c0102617/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff12e3a581fc0dd856f3e25c0102617/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5ff12e3a581fc0dd856f3e25c0102617/jars/libs/ksylive.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
