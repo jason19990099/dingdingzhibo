@@ -1,4 +1,6 @@
 package com.caihongzhibo.phonelive2.fragment;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Build;
 import android.util.Log;
 import android.view.View;
@@ -81,6 +83,7 @@ public class HomeXHYFragment extends AbsFragment  {
         setting.setCacheMode(WebSettings.LOAD_NO_CACHE);//设置缓存模式
         webview.setVerticalScrollBarEnabled(false); // 取消Vertical ScrollBar显示
         webview.setHorizontalScrollBarEnabled(false); // 取消Horizontal ScrollBar显示
+        setting.setDomStorageEnabled(true);
         //设置自适应屏幕，两者合用
         setting.setUseWideViewPort(true);
         setting.setLoadWithOverviewMode(true);
@@ -97,9 +100,20 @@ public class HomeXHYFragment extends AbsFragment  {
 
         webview.setWebViewClient(new WebViewClient(){
             @Override
-            public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-                return super.shouldOverrideUrlLoading(view, request);
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                Log.e("=======url======",url);
+                if (url.contains("apk")){
+                    Intent intent= new Intent(); intent.setAction("android.intent.action.VIEW");
+                     Uri content_url = Uri.parse(url);
+                    intent.setDataAndType(content_url, "text/html");
+                    intent.addCategory(Intent.CATEGORY_BROWSABLE);
+                    startActivity(intent);
+
+                }
+                return super.shouldOverrideUrlLoading(view, url);
             }
+
+
         });
 
     }

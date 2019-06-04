@@ -16,7 +16,7 @@ import cn.tillusory.sdk.TiSDK;
 
 public class AppContext extends MultiDexApplication {
     public static AppContext sInstance;
-    //public static RefWatcher sRefWatcher;
+//    public static RefWatcher sRefWatcher;
 
     @Override
     public void onCreate() {

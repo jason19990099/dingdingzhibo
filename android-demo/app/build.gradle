@@ -18,9 +18,9 @@ android {
     defaultConfig {
         applicationId "com.dingdingzhibo.user"
         minSdkVersion 19
-        targetSdkVersion 28
-        versionCode 4
-        versionName "1.1.4"
+        targetSdkVersion 26
+        versionCode 5
+        versionName "1.1.5"
         multiDexEnabled true
     }
     buildTypes {

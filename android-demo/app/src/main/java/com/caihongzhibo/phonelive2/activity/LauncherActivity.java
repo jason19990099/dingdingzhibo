@@ -70,13 +70,10 @@ public class LauncherActivity extends AbsActivity {
             public void onResponse(Call call, okhttp3.Response response) throws IOException {
               String s=response.body().string();
               iParray=new Gson().fromJson(s,IParray.class);
-
-                for (int i=0;i<iParray.getData().size();i++){
-                    list.add(iParray.getData().get(i)+"/api/public/index.php?service=Home.apiTest");
-                }
-                for (int m=0;m<list.size();m++){
+              list.add(iParray.getData().get(0)+"/api/public/index.php?service=Home.apiTest");
+              for (int m=0;m<list.size();m++){
                     sendHttpRequest(list.get(m),m);
-                }
+              }
             }
 
 
@@ -129,10 +126,6 @@ public class LauncherActivity extends AbsActivity {
                                 AppConfig.getInstance().setLaunched(true);
                             }
                         });
-
-
-
-
                     } else {
                         Log.e("between","失敗了。。。。。。");
                     }
